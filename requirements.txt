@@ -1,0 +1,16 @@
+# scraping
+aiohttp
+pydantic
+pydantic-settings
+zipcodes
+addfips
+
+# compiling and analysis
+pandas
+dask[dataframe]
+geopandas
+pyogrio
+ipyleaflet
+ipywidgets
+branca
+jupyterlab

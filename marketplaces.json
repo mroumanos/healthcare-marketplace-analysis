@@ -1,0 +1,27 @@
+{
+  "coverage_year": 2026,
+  "output_dir": "data/results",
+
+  "http": {
+    "user_agent": "marketplace-research-scraper/0.1 (non-commercial research)",
+    "timeout_seconds": 30,
+    "delay_seconds": 0.05,
+    "max_retries": 3,
+    "backoff_seconds": 2.0,
+    "max_concurrency": 20
+  },
+
+  "fpl": {
+    "first_person": 15960,
+    "each_additional": 5680
+  },
+
+  "scenario": {
+    "zip_codes": "*",
+    "ages": [18, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65],
+    "num_dependents": [0, 1, 2, 3],
+    "spouse": [false],
+    "genders": ["Male"],
+    "fpl_multipliers": [10.0]
+  }
+}

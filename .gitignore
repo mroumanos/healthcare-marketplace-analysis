@@ -1,0 +1,9 @@
+# scraped data, compiled CSVs and downloaded shapefiles
+data/
+
+# local environment
+.venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
